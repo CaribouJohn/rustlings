@@ -80,7 +80,7 @@ mod tests {
     fn list_of_results() {
         let numbers = vec![27, 297, 38502, 81];
         let division_results = numbers.into_iter().map(|n| divide(n, 27));
-        let x: = division_results.collect();
+        //let x: = division_results.collect();
         //let x //... Fill in here!
         assert_eq!(format!("{:?}", division_results), "[Ok(1), Ok(11), Ok(1426), Ok(3)]");
     }
